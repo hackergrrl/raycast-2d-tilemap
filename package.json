@@ -1,0 +1,18 @@
+{
+  "name": "raycast-2d-tilemap",
+  "description": "test a 2d ray against a generic 2d grid of tiles",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/noffle/raycast-2d-tilemap.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "dependencies": {
+    "fast-voxel-raycast": "^0.1.1"
+  },
+  "devDependencies": {
+    "tape": "*"
+  }
+}
